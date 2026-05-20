@@ -1,0 +1,11 @@
+{
+	"username": "Trần Đình Vinh",
+	"config": {
+		"theme": "dark",
+		"language": "vi",
+		"model": "gemini-3-flash-preview"
+	},
+	"gemini": {
+		"api-key-free": "AIzaSyCuk5focJ_DF23SqmlAXhAs4J8sXKky0ZA"
+	}
+}
