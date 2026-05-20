@@ -75,5 +75,6 @@ For more information about the MMS-TTS-LAO project, please contact us at vinhtra
 
 ## 💖 Thanks Message
 Profile: [vinhtran-karasuma.netlify.app](https://vinhtran-karasuma.netlify.app/)
+
 We would like to thank all the contributors to the MMS-TTS-LAO project for their hard work and dedication. This project is made possible by the support of the open-source community.
 This is written by [readme.ai](https://readme-generator-phi.vercel.app/)
