@@ -1,80 +1,223 @@
+# 🧠 MMS-TTS-LAO & Language Learning Platform  
+*A Comprehensive AI-Powered Language Learning and Text-to-Speech System*
+
+---
+
 ## 📖 Introduction
 
 This project was developed as part of my scientific research initiative in 2026 at Vinh University.  
-Although the project did not advance to the final round of the research competition, it represents a significant journey of experimentation, problem-solving, and exploration in the field of speech synthesis and language technology.
+Although the project did not advance to the final round of the research competition, it represents an important journey of experimentation, problem-solving, and exploration in the fields of language technology, speech synthesis, and educational software engineering.
 
-Rather than leaving the project archived privately, I decided to make it open-source so that other developers, students, and researchers can continue learning from it, improving it, or building upon its ideas.
+Instead of leaving the project archived privately, I decided to make it open-source so that developers, students, and researchers can continue learning from it, improving it, or building upon its ideas.
 
-MMS-TTS-LAO was created with the goal of exploring modern Text-to-Speech technologies for the Lao language, combining machine learning, dictionary systems, multilingual processing, and web-based interaction into a unified platform.
+The project combines an AI-powered language learning platform with a modern Text-to-Speech system for the Lao language. It integrates vocabulary learning, conversational AI, dictionary systems, multilingual processing, and speech synthesis into a unified interactive platform.
 
-This repository reflects not only a technical implementation, but also the process of academic research, prototyping, and practical software engineering carried out during my university studies at Vinh University.
+This repository reflects not only a technical implementation, but also the academic research, prototyping, and software engineering process carried out during my university studies.
 
-# 🧠 MMS-TTS-LAO Project: A Comprehensive Text-to-Speech System
-The MMS-TTS-LAO project is a cutting-edge text-to-speech system designed to provide a seamless and efficient way to convert text into spoken language. This project leverages the power of the MMS-TTS-LAO model, a state-of-the-art speech synthesis model, to generate high-quality speech. The system is built using a range of technologies, including Python, JavaScript, and JSON, and is designed to be highly customizable and extensible.
+---
 
-## 🚀 Features
-The MMS-TTS-LAO project boasts a range of exciting features, including:
-* **Text-to-Speech Conversion**: The system can convert text into spoken language using the MMS-TTS-LAO model.
-* **Dictionary API**: The system includes a dictionary API that provides access to a range of dictionary data, including translations and definitions.
-* **Binary Search Tree**: The system uses a binary search tree data structure to store and retrieve dictionary data efficiently.
-* **Internationalization**: The system supports internationalization, with translation data available for multiple languages, including English and Lao.
-* **Web Interface**: The system includes a web interface that provides a user-friendly way to interact with the system and access its features.
+# 🚀 Features
 
-## 🛠️ Tech Stack
-The MMS-TTS-LAO project uses a range of technologies, including:
-* **Python**: The system is built using Python, with the `app.py` file serving as the main application entry point.
-* **React + Vite**: The web interface is developed using React and powered by Vite for a fast and modern frontend development experience.
-* **JSON**: The system uses JSON to store and retrieve dictionary data and translation data.
-* **Transformers**: The system uses the `transformers` library to load and use the MMS-TTS-LAO model.
-* **GTTS**: The system uses the `gtts` library to provide text-to-speech functionality.
-* **Playsound**: The system uses the `playsound` library to play audio files.
-* **Torch**: The system uses the `torch` library to provide machine learning utilities and model execution.
-* **Webview**: The system uses the `webview` library to create a desktop-like web-based interface.
+## 🗣️ Text-to-Speech System
+- High-quality Lao speech synthesis using the MMS-TTS-LAO model
+- AI-powered voice generation
+- Audio playback support
+- Customizable speech processing pipeline
 
-## 📦 Installation
-To install the MMS-TTS-LAO project, follow these steps:
-1. Clone the repository using `git clone`.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the application using `python app.py`.
+## 📚 Language Learning Platform
+- Interactive flashcards for vocabulary learning
+- Quizzes and language practice games
+- AI-powered chat for conversational learning
+- Dictionary and translation lookup system
+- Multilingual interface support
 
-## 💻 Usage
-To use the MMS-TTS-LAO project, follow these steps:
-1. Run the application using `python app.py`.
-2. Open a web browser and navigate to `http://localhost:8000`.
-3. Interact with the system using the web interface.
+## ⚡ System Architecture
+- Efficient dictionary storage using a Binary Search Tree
+- Fast data retrieval and search operations
+- Desktop-like web interface powered by PyWebview
+- Responsive frontend built with React + Vite
+- Internationalization support for multiple languages
 
-## 📂 Project Structure
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React
+- React Router
+- Tailwind CSS
+- Vite
+
+## Backend
+- Python
+- PyWebview API
+
+## AI / Machine Learning
+- Google GenAI API
+- Transformers
+- Torch
+- MMS-TTS-LAO Model
+
+## Database & Data Processing
+- Binary Search Tree (Python implementation)
+- JSON-based dictionary system
+
+## Additional Libraries
+- `gtts`
+- `playsound`
+- `threading`
+- `hashlib`
+- `os`
+- `json`
+- `webview`
+
+---
+
+# 📦 Installation
+
+## 1️⃣ Clone Repository
+```bash
+git clone <repository-url>
+cd MMS-TTS-LAO
+```
+
+## 2️⃣ Install Frontend Dependencies
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+## 3️⃣ Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run Application
+
+### Start Backend
+```bash
+python app.py
+```
+
+### Start Frontend
+```bash
+npm run dev
+```
+
+---
+
+# 💻 Usage
+
+1. Launch the application using `python app.py`
+2. Open the frontend in your browser
+3. Select your preferred language
+4. Access flashcards, quizzes, or dictionary tools
+5. Use the AI chat feature for conversational practice
+6. Convert text into speech using the TTS system
+
+---
+
+# 📂 Project Structure
+
 ```markdown
 MMS-TTS-LAO/
 ├── app.py
 ├── tree.py
+├── requirements.txt
+├── README.md
+│
 ├── data/
 │   ├── dict.json
 │   ├── dict-it.json
+│
+├── build-ui/
+│
+├── src/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── utils/
+│
 ├── web/
 │   ├── index.html
 │   ├── lang/
 │   │   ├── en.json
 │   │   ├── la.json
+│
+├── vite.config.js
 ```
 
-## 📸 Screenshots
+---
 
-## 🤝 Contributing
-To contribute to the MMS-TTS-LAO project, please follow these steps:
-1. Fork the repository using `git fork`.
-2. Make changes to the code and commit them using `git commit`.
-3. Push the changes to the remote repository using `git push`.
-4. Submit a pull request to the main repository.
+# 🧠 Core Technologies Explained
 
-## 📝 License
-The MMS-TTS-LAO project is licensed under the MIT License.
+## 🌳 Binary Search Tree
+The platform uses a Binary Search Tree data structure to efficiently:
+- Store dictionary vocabulary
+- Retrieve translation results
+- Improve lookup performance
+- Organize multilingual language data
 
-## 📬 Contact
-For more information about the MMS-TTS-LAO project, please contact us at vinhtran.coder2k6@gmail.com.
+## 🤖 AI Integration
+The system integrates AI technologies for:
+- Conversational language practice
+- Smart response generation
+- Speech synthesis
+- Natural language interaction
 
-## 💖 Thanks Message
-Profile: [vinhtran-karasuma.netlify.app](https://vinhtran-karasuma.netlify.app/)
+## 🌐 Internationalization
+The application supports multilingual interfaces and dictionary data for:
+- English
+- Lao
+- Expandable future language support
 
-We would like to thank all the contributors to the MMS-TTS-LAO project for their hard work and dedication. This project is made possible by the support of the open-source community.
+---
+
+# 📸 Screenshots
+
+> Add screenshots of the UI, flashcards, AI chat interface, and TTS system here.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+To contribute:
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push to your fork
+5. Submit a pull request
+
+Please ensure your code is well-documented and follows the existing project structure and coding standards.
+
+---
+
+# 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 📬 Contact
+
+- Email: `vinhtran.coder2k6@gmail.com`
+- Portfolio: https://vinhtran-karasuma.netlify.app/
+
+---
+
+# 💖 Acknowledgements
+
+Special thanks to:
+- The open-source community
+- Contributors and testers
+- Research mentors and academic supporters
+- Everyone who provided feedback throughout the development process
+
 This is written by [readme.ai](https://readme-generator-phi.vercel.app/)
