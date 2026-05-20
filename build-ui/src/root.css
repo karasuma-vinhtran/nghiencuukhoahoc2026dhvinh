@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* font-['Exo_2',_sans-serif] */
+@font-face {
+	font-family: "Exo 2";
+	src: url("./assets/fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* div {border: 3px solid red} */
+
+#root,
+#main {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#search-input:not(:placeholder-shown) + #search-delete {
+	display: flex;
+}
+
+.selected-lang {
+	color: #424242;
+	background-color: #fafafa;
+}
+
+.selected-menubar {
+	background-color: #00000055;
+}
+
+.selected-menubar#menu-home-circle {
+	--size-menu-home-circle: 80px;
+	position: absolute;
+	margin-top: -45px;
+	height: var(--size-menu-home-circle);
+	width: var(--size-menu-home-circle);
+	border-radius: 100%;
+	color: #fff;
+	background-color: #000000;
+}
+
+.selected-menubar#menu-home-circle svg {
+	--size-svg-menu-home-circle: 30px;
+	height: var(--size-svg-menu-home-circle);
+	width: var(--size-svg-menu-home-circle);
+}
+
+.selected-type {
+	background-color: #00000022;
+}
+
+.scrollbar-hide {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}

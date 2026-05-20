@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 30 20" version="1.1"><script xmlns="" src="chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/static/js/contentInt.js"/>
+<rect width="30" height="20" fill="#da251d"/>
+<polygon points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85" fill="#ff0"/>
+<script xmlns=""/><div xmlns="" id="ufs-magnify-image-hover-div"/><link xmlns="" rel="stylesheet" type="text/css" href="chrome-extension://heoejcamgchindphgghdhmjpgmldnepl/scripts/magnify_image.css" id="ufs-magnify-image-css"/><savior-host xmlns="http://www.w3.org/1999/xhtml" style="all: unset; position: absolute; top: 0; left: 0; z-index: 99999999999999; display: block !important; overflow: unset"><template shadowrootmode="open"><style xmlns="">@import "chrome-extension://jdfkmiabjpfjacifcmihfdjhpnjpiick/css/content-script.css";
+</style><div xmlns="" class="body"><div class="turn-lights-overlay"/><toasts id="toasts-container"/></div></template></savior-host></svg>
