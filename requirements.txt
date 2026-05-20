@@ -1,0 +1,8 @@
+gtts>=2.5.1
+playsound==1.2.2
+soundfile>=0.12.1
+torch>=2.2.0
+transformers>=4.41.0
+pywebview>=5.1
+numpy>=1.26.0
+sentencepiece>=0.2.0
