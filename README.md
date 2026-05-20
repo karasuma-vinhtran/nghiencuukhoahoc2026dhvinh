@@ -71,8 +71,9 @@ To contribute to the MMS-TTS-LAO project, please follow these steps:
 The MMS-TTS-LAO project is licensed under the MIT License.
 
 ## 📬 Contact
-For more information about the MMS-TTS-LAO project, please contact us at [insert contact email].
+For more information about the MMS-TTS-LAO project, please contact us at vinhtran.coder2k6@gmail.com.
 
 ## 💖 Thanks Message
+Profile: [vinhtran-karasuma.netlify.app](https://vinhtran-karasuma.netlify.app/)
 We would like to thank all the contributors to the MMS-TTS-LAO project for their hard work and dedication. This project is made possible by the support of the open-source community.
 This is written by [readme.ai](https://readme-generator-phi.vercel.app/)
