@@ -5,7 +5,7 @@
 		"language": "vi"
 	},
 	"gemini": {
-		"api-key-free": "AIzaSyC_521qbbdcGjaum9BNxHzsnRZa_651X-s",
+		"api-key-free": "<YOUR_API_KEY_(REVOKED_AND_NO_LONGER_USABLE)>",
 		"model": "gemini-2.5-flash-lite",
 		"model-first": "gemini-3-flash-preview"
 	}
