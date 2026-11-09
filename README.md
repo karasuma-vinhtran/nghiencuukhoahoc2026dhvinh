@@ -78,17 +78,19 @@ This repository reflects not only a technical implementation, but also the acade
 ## 1️⃣ Clone Repository
 ```bash
 git clone <repository-url>
-cd MMS-TTS-LAO
+cd ./nghiencuukhoahoc2026dhvinh
 ```
 
 ## 2️⃣ Install Frontend Dependencies
 ```bash
+cd ./build-ui
 npm install
 ```
 
 or
 
 ```bash
+cd ./build-ui
 yarn install
 ```
 
@@ -99,13 +101,14 @@ pip install -r requirements.txt
 
 ## 4️⃣ Run Application
 
-### Start Backend
+### Start Application
 ```bash
 python app.py
 ```
 
-### Start Frontend
+### Start Frontend Developer
 ```bash
+cd ./build-ui
 npm run dev
 ```
 
@@ -125,7 +128,7 @@ npm run dev
 # 📂 Project Structure
 
 ```markdown
-MMS-TTS-LAO/
+nghiencuukhoahoc2026dhvinh/
 ├── app.py
 ├── tree.py
 ├── requirements.txt
@@ -174,28 +177,6 @@ The system integrates AI technologies for:
 The application supports multilingual interfaces and dictionary data for:
 - English
 - Lao
-- Expandable future language support
-
----
-
-# 📸 Screenshots
-
-> Add screenshots of the UI, flashcards, AI chat interface, and TTS system here.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-To contribute:
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to your fork
-5. Submit a pull request
-
-Please ensure your code is well-documented and follows the existing project structure and coding standards.
 
 ---
 
@@ -209,13 +190,6 @@ This project is licensed under the MIT License.
 
 - Email: `vinhtran.coder2k6@gmail.com`
 - Portfolio: https://vinhtran-karasuma.netlify.app/
-
----
-
-# 💖 Acknowledgements
-
-Special thanks to:
-- The open-source community
 - Contributors and testers
 - Research mentors and academic supporters
 - Everyone who provided feedback throughout the development process
